@@ -1,17 +1,17 @@
 {
   "name": "npm-package-publish-starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Start coding instantly with a pre-configured environment that adheres to best practices",
+  "author": "Tofigh Nazari",
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev",
     "build-storybook": "storybook build",
-    "build-lib": "rollup -c"
+    "build": "rollup -c"
   },
-  "author": "Tofigh Nazari",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
