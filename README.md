@@ -1,6 +1,6 @@
 # npm-package-publish-starter
 
-> Start coding instantly with a pre-configured environment that adheres to best practices
+Start coding instantly with a pre-configured environment that adheres to best practices.
 
 This package is a streamlined boilerplate designed to help developers quickly create and publish UI component packages to npm. This starter kit includes essential configurations and a sample component to kickstart your development process. With `npm-package-publish-starter`, you can focus on building unique and reusable UI components without worrying about the initial setup.
 
@@ -12,9 +12,10 @@ To make sure you have them available on your machine,
 try running the following command.
 
 ```sh
-$ npm -v && node -v
-6.4.1
-v8.16.0
+$ node -v
+v18.18.2
+$ npm -v
+9.8.1
 ```
 
 ## Features
@@ -59,7 +60,7 @@ $ npm run build
 ```
 
 This task will create a distribution version of the project
-inside your local `dist/` folder
+inside your local `dist/` folder.
 
 ## Publish
 
@@ -70,6 +71,7 @@ inside your local `dist/` folder
 "version": "XX.YY.ZZ",
 "description": "YOUR PACKAGE DESCRIPTION",
 "author": "YOUR NAME",
+"keywords": ["YOUR" , "KEY" , "WORDS"],
 ```
 
 - Build the project:
@@ -95,7 +97,7 @@ $ npm publish
 1.  Fork it!
 2.  Create your feature branch: `git checkout -b my-new-feature`
 3.  Add your changes: `git add .`
-4.  Commit your changes: `git commit -am 'Add some feature'`
+4.  Commit your changes: `git commit -m 'Add some feature'`
 5.  Push to the branch: `git push origin my-new-feature`
 6.  Submit a pull request!
 
