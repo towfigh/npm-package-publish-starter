@@ -53,6 +53,12 @@ $ yarn
 $ npm run storybook
 ```
 
+### Testing
+
+```sh
+$ npm run test
+```
+
 ### Building a distribution version
 
 ```sh
