@@ -8,6 +8,7 @@ const Input = ({
   className = "",
   style = {},
   onChange,
+  ...props
 }) => {
   return (
     <input
@@ -17,6 +18,7 @@ const Input = ({
       type={type}
       value={value}
       onChange={onChange}
+      {...props}
     />
   );
 };
