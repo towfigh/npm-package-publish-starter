@@ -1,0 +1,6 @@
+.base_button {
+  padding: 5px 10px;
+  background-color: rgb(195, 225, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
