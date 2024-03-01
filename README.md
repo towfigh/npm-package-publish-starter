@@ -1,6 +1,6 @@
 # npm-package-publish-starter
 
-Start coding instantly with a pre-configured environment that adheres to best practices.
+> Start coding instantly with a pre-configured environment that adheres to best practices.
 
 This package is a streamlined boilerplate designed to help developers quickly create and publish UI component packages to npm. This starter kit includes essential configurations and a sample component to kickstart your development process. With `npm-package-publish-starter`, you can focus on building unique and reusable UI components without worrying about the initial setup.
 
