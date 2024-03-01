@@ -29,8 +29,8 @@ $ npm -v
 Start with cloning this repo on your local machine:
 
 ```sh
-$ git clone https://github.com/ORG/PROJECT.git
-$ cd PROJECT
+$ git clone https://github.com/towfigh/npm-package-publish-starter.git
+$ cd npm-package-publish-starter
 ```
 
 To install and set up the library, run:
@@ -110,4 +110,4 @@ $ npm publish
 
 ## Authors
 
-- **Tofigh Nazari** - [github](https://github.com/towfigh)
+- **Tofigh Nazari**
